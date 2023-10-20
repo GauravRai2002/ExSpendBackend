@@ -58,6 +58,7 @@ router.post('/transaction/:uuid',async(req,res)=>{
         const newBanalnce = account.transaction_type=='DEPOSIT'?account.balance+req.body.amount: account.balance-req.body.amount
         const newData =account.lower_limit? {
             'uuid':account.uuid,
+            'name':account.name,
             'balance':newBanalnce,
             'lower_limit':account.lower_limit
         }:{
