@@ -1,6 +1,6 @@
 const { mongoose } = require('mongoose')
 
-const accountSchema = new mongoose.schema({
+const accountSchema = new mongoose.Schema({
     uuid:{
         type:String,
         required:true
