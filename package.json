@@ -1,0 +1,21 @@
+{
+  "name": "exspendbackend",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000E\u0000x\u0000S\u0000p\u0000e\u0000n\u0000d\u0000B\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongo": "^0.1.0",
+    "mongodb": "^6.2.0",
+    "mongoose": "^7.6.3",
+    "nodemon": "^3.0.1"
+  }
+}
