@@ -15,6 +15,14 @@ const accountSchema = new mongoose.Schema({
     },
     lower_limit:{
         type:Number,
+    },
+    balance_history:{
+        type:[],
+        required:true
+    },
+    remarks_history:{
+        type:[],
+        required:true
     }
 })
 

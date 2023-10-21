@@ -9,7 +9,7 @@ const transactionSchema = new mongoose.Schema({
         type:String,
     },
     transaction_type:{
-        type:String,
+        type:Number,
         required:true
     }
 })
