@@ -11,6 +11,9 @@ const transactionSchema = new mongoose.Schema({
     transaction_type:{
         type:Number,
         required:true
+    },
+    date:{
+        type:String
     }
 })
 
